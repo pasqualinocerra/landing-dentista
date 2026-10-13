@@ -1,5 +1,7 @@
 # Landing Page — Studio Dentistico
 
+**Demo live:** https://landing-dentista-vert.vercel.app/
+
 Landing page responsive per uno studio dentistico, sviluppata con React, TypeScript e Tailwind CSS. Il progetto punta a offrire un'interfaccia professionale, una navigazione intuitiva e un percorso utente orientato al contatto.
 
 ## Il progetto
