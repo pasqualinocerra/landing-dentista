@@ -1,16 +1,5 @@
-
 import ServiceCard from "./ServiceCard";
-
-type Service = {
-  icon: string;
-  title: string;
-  description: string;
-};
-
-type ServicesProps = {
-  services: Service[];
-  onRequestInfo: () => void;
-};
+import type { ServicesProps } from "../data/services";
 
 function Services({ services, onRequestInfo }: ServicesProps) {
   return (

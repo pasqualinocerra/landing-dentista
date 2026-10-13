@@ -1,5 +1,15 @@
+export type Service = {
+  icon: string;
+  title: string;
+  description: string;
+};
 
-export const services = [
+export type ServicesProps = {
+  services: Service[];
+  onRequestInfo: () => void;
+};
+
+export const services: Service[] = [
   {
     title: "Implantologia",
     description:

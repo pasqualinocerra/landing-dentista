@@ -1,10 +1,7 @@
+import type { Service } from "../data/services";
 
 type ServiceCardProps = {
-  service: {
-    icon: string;
-    title: string;
-    description: string;
-  };
+  service: Service;
   onRequestInfo: () => void;
 };
 
